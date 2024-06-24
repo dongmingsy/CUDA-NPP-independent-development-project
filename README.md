@@ -8,7 +8,14 @@ I tried various images from Internet, the results are under ./data directory. Th
 
 An NPP CUDA Sample that demonstrates the recommended parameters to use with the nppiFilterCannyBorder_8u_C1R Canny Edge Detection image filter function. This function expects a single channel 8-bit grayscale input image. You can generate a grayscale image from a color image by first calling nppiColorToGray() or nppiRGBToGray(). The Canny Edge Detection function combines and improves on the techniques required to produce an edge detection image using multiple steps.
 
+
 ![Original png image](https://github.com/dongmingsy/CUDA-NPP-independent-development-project/blob/master/data/teapot.png)
+
+![greyscale image after Edge Detection](https://github.com/dongmingsy/CUDA-NPP-independent-development-project/blob/master/data/teapot_cannyEdgeDetection_grey.png)
+
+![Original png image](https://github.com/dongmingsy/CUDA-NPP-independent-development-project/blob/master/data/couple.png)
+
+![greyscale image after Edge Detection](https://github.com/dongmingsy/CUDA-NPP-independent-development-project/blob/master/data/couple_cannyEdgeDetection_grey.png)
 
 ## Key Concepts
 
